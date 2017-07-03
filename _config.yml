@@ -6,16 +6,16 @@ workshop_site   : "http://dib-lab.github.io/2017-07-05-UCSC"
 #--------------------------------------------------------------------------------
 # Standard Data Carpentry settings - should not need to be modified.
 #--------------------------------------------------------------------------------
-dc_blog        : "http://datacarpentry.github.io/blog"
-dc_contact     : "admin@datacarpentry.org"
-dc_github      : "http://github.com/datacarpentry"
+dc_blog        : "http://ivory.idyll.org/lab"
+dc_contact     : "lcirberjr@ucdavis.edu"
+dc_github      : "http://github.com/dib-lab"
 swc_installer   : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
 #dc_lessons     : "http://software-carpentry.org/v5/novice"
-dc_site        : "http://datacarpentry.org"
-dc_twitter     : "http://twitter.com/datacarpentry"
+dc_site        : "http://ivory.idyll.org/lab"
+dc_twitter     : "http://twitter.com/luizirber"
 #swc_vm          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtSTZLQzF4aVB4NDQ&export=download"
-dc_pre_survey   : "https://www.surveymonkey.com/r/dc_pre_workshop_v1"
-dc_post_survey  : "https://www.surveymonkey.com/r/dc_post_workshop_v1"
+#dc_pre_survey   : "https://www.surveymonkey.com/r/dc_pre_workshop_v1"
+#dc_post_survey  : "https://www.surveymonkey.com/r/dc_post_workshop_v1"
 #--------------------------------------------------------------------------------
 # Settings for Jekyll - should not need to be modified.
 #--------------------------------------------------------------------------------

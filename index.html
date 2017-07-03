@@ -115,13 +115,22 @@ Participants should bring their laptops and plan to participate actively. By the
   isn't set in the header, the Software Carpentry admin address is
   used.
 -->
-<p>
+<p id="contact">
   <strong>Contact</strong>:
-  Please mail
+  Please email
   {% if page.contact %}
-    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
+    {% for contact in page.contact %}
+      {% if forloop.last and page.contact.size > 1 %}
+        or
+      {% else %}
+        {% unless forloop.first %}
+        ,
+        {% endunless %}
+      {% endif %}
+      <a href='mailto:{{contact}}'>{{contact}}</a>
+    {% endfor %}
   {% else %}
-    <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
+    to-be-announced
   {% endif %}
   for more information.
 </p>

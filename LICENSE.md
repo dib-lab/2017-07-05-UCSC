@@ -3,6 +3,11 @@ layout: page
 root: .
 title: Licenses
 ---
+## Licensing notes
+
+This workshop uses material made freely available by Software Carpentry and Data Carpentry,
+but it is not endorsed by any of them.
+
 ## Instructional Material
 
 All Data Carpentry instructional material is made available under
